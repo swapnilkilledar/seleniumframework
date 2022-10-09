@@ -37,5 +37,7 @@ public class ReadConfig {
 		return password;
 		
 	}
-}
+	
+	}
+
 

@@ -6,11 +6,50 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.testCases.Tc_TestCase_001">
+      <class name="com.testCases.Tc_AgentRegistration">
         <methods>
           <include name="Setup"/>
           <include name="TearDown"/>
+          <include name="allFieldBlankAgent"/>
+          <include name="validRegistrationAgent"/>
+        </methods>
+      </class> <!-- com.testCases.Tc_AgentRegistration -->
+      <class name="com.testCases.Tc_UserHomePage">
+        <methods>
+          <include name="UserPropertySearch"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="UserAgentClickHere"/>
+        </methods>
+      </class> <!-- com.testCases.Tc_UserHomePage -->
+      <class name="com.testCases.Tc_UserAboutUs">
+        <methods>
           <include name="InvalidEmail"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.testCases.Tc_UserAboutUs -->
+      <class name="com.testCases.Tc_UserLoginPage">
+        <methods>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="UserClickForgotPassword"/>
+          <include name="UserloginWithoutCredentials"/>
+          <include name="UserRegister"/>
+        </methods>
+      </class> <!-- com.testCases.Tc_UserLoginPage -->
+      <class name="com.testCases.Tc_UserOpenfloPage">
+        <methods>
+          <include name="ClickYoutubeLink"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.testCases.Tc_UserOpenfloPage -->
+      <class name="com.testCases.Tc_TestCase_001">
+        <methods>
+          <include name="AgentPropertySearchBtn"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
         </methods>
       </class> <!-- com.testCases.Tc_TestCase_001 -->
     </classes>

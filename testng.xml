@@ -9,6 +9,11 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.testCases.Tc_TestCase_001" />
+			<class name="com.testCases.Tc_AgentRegistration" />
+			<class name="com.testCases.Tc_UserHomePage" />
+			<class name="com.testCases.Tc_UserLoginPage" />
+			<class name="com.testCases.Tc_UserAboutUs" />
+			<class name="com.testCases.Tc_UserOpenfloPage" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

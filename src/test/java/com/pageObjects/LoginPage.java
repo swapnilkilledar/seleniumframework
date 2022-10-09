@@ -25,6 +25,17 @@ public class LoginPage {
 	@FindBy(id="sign-in-agent")
 	WebElement loginSignIn;
 	
+	@FindBy(xpath="//button[text()=\"Property Search\"]")
+	WebElement propertySearchBtn;
+	
+	@FindBy(xpath="//h5[text()=\"Reset Password\"]")
+	WebElement resetPasswordBtn;
+	
+	@FindBy(xpath="//h5[text()=\"Don't have an account? Sign Up\"]")
+	WebElement donthavaccntBtn;
+	
+
+	
 	public void setUserName(String uname) {
 		loginEmail.sendKeys(uname);
 	}
@@ -37,4 +48,14 @@ public class LoginPage {
 		loginSignIn.click();
 	}
 	
+	public void clickPropertySearch() {
+	   propertySearchBtn.click();
+	}
+	public void clickResetPassword() {
+		resetPasswordBtn.click();
+	}
+	public void clickDonthavAccount() {
+		donthavaccntBtn.click();
+	}
+
 	}

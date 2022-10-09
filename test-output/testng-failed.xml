@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testCases.Tc_TestCase_001">
+      <class name="com.testCases.Tc_UserOpenfloPage">
         <methods>
+          <include name="ClickFirstBtn"/>
+          <include name="ClickYoutubeLink"/>
           <include name="Setup"/>
+          <include name="ClickSecondBtn"/>
           <include name="TearDown"/>
-          <include name="InvalidEmail"/>
         </methods>
-      </class> <!-- com.testCases.Tc_TestCase_001 -->
+      </class> <!-- com.testCases.Tc_UserOpenfloPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

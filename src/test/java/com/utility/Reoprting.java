@@ -40,7 +40,7 @@ public class Reoprting extends TestListenerAdapter {
 		extent.setSystemInfo("user", "swapnil");
 		
 		htmlReporter.config().setDocumentTitle("openbrix Project");
-		htmlReporter.config().setReportName("Functional Test Report");
+		htmlReporter.config().setReportName("OpenBrix Agent Site Test Report");
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		htmlReporter.config().setTheme(Theme.DARK);	
 	}
